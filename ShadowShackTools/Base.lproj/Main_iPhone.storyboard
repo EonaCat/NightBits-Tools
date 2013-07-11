@@ -50,7 +50,7 @@
                                 <rect key="frame" x="45" y="232" width="230" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Toast">
+                                <state key="normal" title="Show Toast">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -65,7 +65,7 @@
                                 <rect key="frame" x="45" y="284" width="230" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Popup">
+                                <state key="normal" title="Show Popup">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -76,11 +76,28 @@
                                     <action selector="showPopupAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="u3k-dL-6XF"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4VY-4B-mLS">
+                                <rect key="frame" x="45" y="370" width="230" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Show LockScreen">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showLockScreenAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="JpT-d1-z5I"/>
+                                    <action selector="showPopupAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="m92-aS-F46"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="showExceptionsButton" destination="WJZ-xJ-otb" id="Up5-20-ap8"/>
+                        <outlet property="showLockScreenButton" destination="4VY-4B-mLS" id="f64-r6-uBq"/>
                         <outlet property="showPopupButton" destination="KIv-Br-EFZ" id="34Q-K3-coY"/>
                         <outlet property="showToastButton" destination="afD-MQ-GvJ" id="9QK-S1-fvd"/>
                         <outlet property="throwException" destination="sST-Dp-9j8" id="dVf-1n-rdq"/>
