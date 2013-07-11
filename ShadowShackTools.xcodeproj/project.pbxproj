@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC760B97178E976E00095B31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC760B96178E976E00095B31 /* Foundation.framework */; };
+		EC760B99178E976E00095B31 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC760B98178E976E00095B31 /* CoreGraphics.framework */; };
+		EC760B9B178E976E00095B31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC760B9A178E976E00095B31 /* UIKit.framework */; };
+		EC760BA1178E976E00095B31 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC760B9F178E976E00095B31 /* InfoPlist.strings */; };
+		EC760BA3178E976E00095B31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC760BA2178E976E00095B31 /* main.m */; };
+		EC760BA7178E976E00095B31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC760BA6178E976E00095B31 /* AppDelegate.m */; };
+		EC760BAA178E976E00095B31 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC760BA8178E976E00095B31 /* Main_iPhone.storyboard */; };
+		EC760BAD178E976E00095B31 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC760BAB178E976E00095B31 /* Main_iPad.storyboard */; };
+		EC760BB0178E976E00095B31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC760BAF178E976E00095B31 /* ViewController.m */; };
+		EC760BB2178E976E00095B31 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC760BB1178E976E00095B31 /* Images.xcassets */; };
+		EC760BB9178E976E00095B31 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC760BB8178E976E00095B31 /* XCTest.framework */; };
+		EC760BBA178E976E00095B31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC760B96178E976E00095B31 /* Foundation.framework */; };
+		EC760BBB178E976E00095B31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC760B9A178E976E00095B31 /* UIKit.framework */; };
+		EC760BC3178E976E00095B31 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC760BC1178E976E00095B31 /* InfoPlist.strings */; };
+		EC760BC5178E976E00095B31 /* ShadowShackToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC760BC4178E976E00095B31 /* ShadowShackToolsTests.m */; };
+		EC760BEC178E97CB00095B31 /* ExceptionsLogger.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC760BE2178E97CB00095B31 /* ExceptionsLogger.strings */; };
+		EC760BED178E97CB00095B31 /* ExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = EC760BE6178E97CB00095B31 /* ExceptionHandler.m */; };
+		EC760BEE178E97CB00095B31 /* ExceptionLogger-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC760BE7178E97CB00095B31 /* ExceptionLogger-iPad.xib */; };
+		EC760BEF178E97CB00095B31 /* ExceptionLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = EC760BE9178E97CB00095B31 /* ExceptionLogger.m */; };
+		EC760BF0178E97CB00095B31 /* ExceptionLogger.png in Resources */ = {isa = PBXBuildFile; fileRef = EC760BEA178E97CB00095B31 /* ExceptionLogger.png */; };
+		EC760BF1178E97CB00095B31 /* ExceptionLogger.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC760BEB178E97CB00095B31 /* ExceptionLogger.xib */; };
+		EC760BF7178E989000095B31 /* DeviceIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = EC760BF4178E989000095B31 /* DeviceIdentifier.m */; };
+		EC760BF8178E989000095B31 /* SHA1.m in Sources */ = {isa = PBXBuildFile; fileRef = EC760BF6178E989000095B31 /* SHA1.m */; };
+		EC760C05178EB5FB00095B31 /* LockController.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC760BFA178EB5FB00095B31 /* LockController.strings */; };
+		EC760C06178EB5FB00095B31 /* LockController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC760BFE178EB5FB00095B31 /* LockController.m */; };
+		EC760C07178EB5FB00095B31 /* Popup.m in Sources */ = {isa = PBXBuildFile; fileRef = EC760C01178EB5FB00095B31 /* Popup.m */; };
+		EC760C08178EB5FB00095B31 /* Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = EC760C04178EB5FB00095B31 /* Toast.m */; };
+		EC760C0B178EB9C800095B31 /* toast.png in Resources */ = {isa = PBXBuildFile; fileRef = EC760C0A178EB9C800095B31 /* toast.png */; };
+		EC760C0D178EBBE300095B31 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC760C0C178EBBE300095B31 /* AudioToolbox.framework */; };
+		EC760C0F178EBCD200095B31 /* toast.wav in Resources */ = {isa = PBXBuildFile; fileRef = EC760C0E178EBCD200095B31 /* toast.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC760BBC178E976E00095B31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC760B8B178E976E00095B31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC760B92178E976E00095B31;
+			remoteInfo = ShadowShackTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC760B93178E976E00095B31 /* ShadowShackTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShadowShackTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC760B96178E976E00095B31 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC760B98178E976E00095B31 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC760B9A178E976E00095B31 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC760B9E178E976E00095B31 /* ShadowShackTools-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShadowShackTools-Info.plist"; sourceTree = "<group>"; };
+		EC760BA0178E976E00095B31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC760BA2178E976E00095B31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC760BA4178E976E00095B31 /* ShadowShackTools-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShadowShackTools-Prefix.pch"; sourceTree = "<group>"; };
+		EC760BA5178E976E00095B31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC760BA6178E976E00095B31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC760BA9178E976E00095B31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		EC760BAC178E976E00095B31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		EC760BAE178E976E00095B31 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC760BAF178E976E00095B31 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC760BB1178E976E00095B31 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC760BB7178E976E00095B31 /* ShadowShackToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShadowShackToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC760BB8178E976E00095B31 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EC760BC0178E976E00095B31 /* ShadowShackToolsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShadowShackToolsTests-Info.plist"; sourceTree = "<group>"; };
+		EC760BC2178E976E00095B31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC760BC4178E976E00095B31 /* ShadowShackToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShadowShackToolsTests.m; sourceTree = "<group>"; };
+		EC760BE3178E97CB00095B31 /* Dutch */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Dutch; path = Dutch.lproj/ExceptionsLogger.strings; sourceTree = "<group>"; };
+		EC760BE4178E97CB00095B31 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/ExceptionsLogger.strings; sourceTree = "<group>"; };
+		EC760BE5178E97CB00095B31 /* ExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExceptionHandler.h; sourceTree = "<group>"; };
+		EC760BE6178E97CB00095B31 /* ExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExceptionHandler.m; sourceTree = "<group>"; };
+		EC760BE7178E97CB00095B31 /* ExceptionLogger-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "ExceptionLogger-iPad.xib"; sourceTree = "<group>"; };
+		EC760BE8178E97CB00095B31 /* ExceptionLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExceptionLogger.h; sourceTree = "<group>"; };
+		EC760BE9178E97CB00095B31 /* ExceptionLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExceptionLogger.m; sourceTree = "<group>"; };
+		EC760BEA178E97CB00095B31 /* ExceptionLogger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ExceptionLogger.png; sourceTree = "<group>"; };
+		EC760BEB178E97CB00095B31 /* ExceptionLogger.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExceptionLogger.xib; sourceTree = "<group>"; };
+		EC760BF3178E989000095B31 /* DeviceIdentifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceIdentifier.h; sourceTree = "<group>"; };
+		EC760BF4178E989000095B31 /* DeviceIdentifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceIdentifier.m; sourceTree = "<group>"; };
+		EC760BF5178E989000095B31 /* SHA1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHA1.h; sourceTree = "<group>"; };
+		EC760BF6178E989000095B31 /* SHA1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHA1.m; sourceTree = "<group>"; };
+		EC760BFB178EB5FB00095B31 /* Dutch */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Dutch; path = Dutch.lproj/LockController.strings; sourceTree = "<group>"; };
+		EC760BFC178EB5FB00095B31 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/LockController.strings; sourceTree = "<group>"; };
+		EC760BFD178EB5FB00095B31 /* LockController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LockController.h; sourceTree = "<group>"; };
+		EC760BFE178EB5FB00095B31 /* LockController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LockController.m; sourceTree = "<group>"; };
+		EC760C00178EB5FB00095B31 /* Popup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Popup.h; sourceTree = "<group>"; };
+		EC760C01178EB5FB00095B31 /* Popup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Popup.m; sourceTree = "<group>"; };
+		EC760C03178EB5FB00095B31 /* Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Toast.h; sourceTree = "<group>"; };
+		EC760C04178EB5FB00095B31 /* Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Toast.m; sourceTree = "<group>"; };
+		EC760C0A178EB9C800095B31 /* toast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toast.png; sourceTree = "<group>"; };
+		EC760C0C178EBBE300095B31 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EC760C0E178EBCD200095B31 /* toast.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = toast.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC760B90178E976E00095B31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC760C0D178EBBE300095B31 /* AudioToolbox.framework in Frameworks */,
+				EC760B99178E976E00095B31 /* CoreGraphics.framework in Frameworks */,
+				EC760B9B178E976E00095B31 /* UIKit.framework in Frameworks */,
+				EC760B97178E976E00095B31 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC760BB4178E976E00095B31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC760BB9178E976E00095B31 /* XCTest.framework in Frameworks */,
+				EC760BBB178E976E00095B31 /* UIKit.framework in Frameworks */,
+				EC760BBA178E976E00095B31 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC760B8A178E976E00095B31 = {
+			isa = PBXGroup;
+			children = (
+				EC760B9C178E976E00095B31 /* ShadowShackTools */,
+				EC760BBE178E976E00095B31 /* ShadowShackToolsTests */,
+				EC760B95178E976E00095B31 /* Frameworks */,
+				EC760B94178E976E00095B31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC760B94178E976E00095B31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC760B93178E976E00095B31 /* ShadowShackTools.app */,
+				EC760BB7178E976E00095B31 /* ShadowShackToolsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC760B95178E976E00095B31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC760C0C178EBBE300095B31 /* AudioToolbox.framework */,
+				EC760B96178E976E00095B31 /* Foundation.framework */,
+				EC760B98178E976E00095B31 /* CoreGraphics.framework */,
+				EC760B9A178E976E00095B31 /* UIKit.framework */,
+				EC760BB8178E976E00095B31 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC760B9C178E976E00095B31 /* ShadowShackTools */ = {
+			isa = PBXGroup;
+			children = (
+				EC760C09178EB9C800095B31 /* Images */,
+				EC760BE0178E97CB00095B31 /* Tools */,
+				EC760BA5178E976E00095B31 /* AppDelegate.h */,
+				EC760BA6178E976E00095B31 /* AppDelegate.m */,
+				EC760BA8178E976E00095B31 /* Main_iPhone.storyboard */,
+				EC760BAB178E976E00095B31 /* Main_iPad.storyboard */,
+				EC760BAE178E976E00095B31 /* ViewController.h */,
+				EC760BAF178E976E00095B31 /* ViewController.m */,
+				EC760BB1178E976E00095B31 /* Images.xcassets */,
+				EC760B9D178E976E00095B31 /* Supporting Files */,
+			);
+			path = ShadowShackTools;
+			sourceTree = "<group>";
+		};
+		EC760B9D178E976E00095B31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC760B9E178E976E00095B31 /* ShadowShackTools-Info.plist */,
+				EC760B9F178E976E00095B31 /* InfoPlist.strings */,
+				EC760BA2178E976E00095B31 /* main.m */,
+				EC760BA4178E976E00095B31 /* ShadowShackTools-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC760BBE178E976E00095B31 /* ShadowShackToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC760BC4178E976E00095B31 /* ShadowShackToolsTests.m */,
+				EC760BBF178E976E00095B31 /* Supporting Files */,
+			);
+			path = ShadowShackToolsTests;
+			sourceTree = "<group>";
+		};
+		EC760BBF178E976E00095B31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC760BC0178E976E00095B31 /* ShadowShackToolsTests-Info.plist */,
+				EC760BC1178E976E00095B31 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC760BE0178E97CB00095B31 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				EC760BF9178EB5FB00095B31 /* Lockscreen */,
+				EC760BFF178EB5FB00095B31 /* Popup */,
+				EC760C02178EB5FB00095B31 /* Toast */,
+				EC760BF2178E989000095B31 /* uniqueIdentifier */,
+				EC760BE1178E97CB00095B31 /* ExceptionsLogger */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		EC760BE1178E97CB00095B31 /* ExceptionsLogger */ = {
+			isa = PBXGroup;
+			children = (
+				EC760BE2178E97CB00095B31 /* ExceptionsLogger.strings */,
+				EC760BE5178E97CB00095B31 /* ExceptionHandler.h */,
+				EC760BE6178E97CB00095B31 /* ExceptionHandler.m */,
+				EC760BE7178E97CB00095B31 /* ExceptionLogger-iPad.xib */,
+				EC760BE8178E97CB00095B31 /* ExceptionLogger.h */,
+				EC760BE9178E97CB00095B31 /* ExceptionLogger.m */,
+				EC760BEA178E97CB00095B31 /* ExceptionLogger.png */,
+				EC760BEB178E97CB00095B31 /* ExceptionLogger.xib */,
+			);
+			path = ExceptionsLogger;
+			sourceTree = "<group>";
+		};
+		EC760BF2178E989000095B31 /* uniqueIdentifier */ = {
+			isa = PBXGroup;
+			children = (
+				EC760BF3178E989000095B31 /* DeviceIdentifier.h */,
+				EC760BF4178E989000095B31 /* DeviceIdentifier.m */,
+				EC760BF5178E989000095B31 /* SHA1.h */,
+				EC760BF6178E989000095B31 /* SHA1.m */,
+			);
+			path = uniqueIdentifier;
+			sourceTree = "<group>";
+		};
+		EC760BF9178EB5FB00095B31 /* Lockscreen */ = {
+			isa = PBXGroup;
+			children = (
+				EC760BFA178EB5FB00095B31 /* LockController.strings */,
+				EC760BFD178EB5FB00095B31 /* LockController.h */,
+				EC760BFE178EB5FB00095B31 /* LockController.m */,
+			);
+			path = Lockscreen;
+			sourceTree = "<group>";
+		};
+		EC760BFF178EB5FB00095B31 /* Popup */ = {
+			isa = PBXGroup;
+			children = (
+				EC760C00178EB5FB00095B31 /* Popup.h */,
+				EC760C01178EB5FB00095B31 /* Popup.m */,
+			);
+			path = Popup;
+			sourceTree = "<group>";
+		};
+		EC760C02178EB5FB00095B31 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				EC760C03178EB5FB00095B31 /* Toast.h */,
+				EC760C0E178EBCD200095B31 /* toast.wav */,
+				EC760C04178EB5FB00095B31 /* Toast.m */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		EC760C09178EB9C800095B31 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EC760C0A178EB9C800095B31 /* toast.png */,
+			);
+			name = Images;
+			path = ShadowShackTools/Images;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC760B92178E976E00095B31 /* ShadowShackTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC760BC8178E976E00095B31 /* Build configuration list for PBXNativeTarget "ShadowShackTools" */;
+			buildPhases = (
+				EC760B8F178E976E00095B31 /* Sources */,
+				EC760B90178E976E00095B31 /* Frameworks */,
+				EC760B91178E976E00095B31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShadowShackTools;
+			productName = ShadowShackTools;
+			productReference = EC760B93178E976E00095B31 /* ShadowShackTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC760BB6178E976E00095B31 /* ShadowShackToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC760BCB178E976E00095B31 /* Build configuration list for PBXNativeTarget "ShadowShackToolsTests" */;
+			buildPhases = (
+				EC760BB3178E976E00095B31 /* Sources */,
+				EC760BB4178E976E00095B31 /* Frameworks */,
+				EC760BB5178E976E00095B31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC760BBD178E976E00095B31 /* PBXTargetDependency */,
+			);
+			name = ShadowShackToolsTests;
+			productName = ShadowShackToolsTests;
+			productReference = EC760BB7178E976E00095B31 /* ShadowShackToolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC760B8B178E976E00095B31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = ShadowShack;
+				TargetAttributes = {
+					EC760BB6178E976E00095B31 = {
+						TestTargetID = EC760B92178E976E00095B31;
+					};
+				};
+			};
+			buildConfigurationList = EC760B8E178E976E00095B31 /* Build configuration list for PBXProject "ShadowShackTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				Dutch,
+				English,
+			);
+			mainGroup = EC760B8A178E976E00095B31;
+			productRefGroup = EC760B94178E976E00095B31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC760B92178E976E00095B31 /* ShadowShackTools */,
+				EC760BB6178E976E00095B31 /* ShadowShackToolsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC760B91178E976E00095B31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC760BAD178E976E00095B31 /* Main_iPad.storyboard in Resources */,
+				EC760C05178EB5FB00095B31 /* LockController.strings in Resources */,
+				EC760BB2178E976E00095B31 /* Images.xcassets in Resources */,
+				EC760BEC178E97CB00095B31 /* ExceptionsLogger.strings in Resources */,
+				EC760BF1178E97CB00095B31 /* ExceptionLogger.xib in Resources */,
+				EC760BF0178E97CB00095B31 /* ExceptionLogger.png in Resources */,
+				EC760C0F178EBCD200095B31 /* toast.wav in Resources */,
+				EC760BEE178E97CB00095B31 /* ExceptionLogger-iPad.xib in Resources */,
+				EC760BAA178E976E00095B31 /* Main_iPhone.storyboard in Resources */,
+				EC760BA1178E976E00095B31 /* InfoPlist.strings in Resources */,
+				EC760C0B178EB9C800095B31 /* toast.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC760BB5178E976E00095B31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC760BC3178E976E00095B31 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC760B8F178E976E00095B31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC760C06178EB5FB00095B31 /* LockController.m in Sources */,
+				EC760BB0178E976E00095B31 /* ViewController.m in Sources */,
+				EC760BA7178E976E00095B31 /* AppDelegate.m in Sources */,
+				EC760C07178EB5FB00095B31 /* Popup.m in Sources */,
+				EC760BF7178E989000095B31 /* DeviceIdentifier.m in Sources */,
+				EC760C08178EB5FB00095B31 /* Toast.m in Sources */,
+				EC760BED178E97CB00095B31 /* ExceptionHandler.m in Sources */,
+				EC760BEF178E97CB00095B31 /* ExceptionLogger.m in Sources */,
+				EC760BA3178E976E00095B31 /* main.m in Sources */,
+				EC760BF8178E989000095B31 /* SHA1.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC760BB3178E976E00095B31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC760BC5178E976E00095B31 /* ShadowShackToolsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC760BBD178E976E00095B31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC760B92178E976E00095B31 /* ShadowShackTools */;
+			targetProxy = EC760BBC178E976E00095B31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC760B9F178E976E00095B31 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC760BA0178E976E00095B31 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EC760BA8178E976E00095B31 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC760BA9178E976E00095B31 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		EC760BAB178E976E00095B31 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC760BAC178E976E00095B31 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		EC760BC1178E976E00095B31 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC760BC2178E976E00095B31 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EC760BE2178E97CB00095B31 /* ExceptionsLogger.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC760BE3178E97CB00095B31 /* Dutch */,
+				EC760BE4178E97CB00095B31 /* English */,
+			);
+			name = ExceptionsLogger.strings;
+			sourceTree = "<group>";
+		};
+		EC760BFA178EB5FB00095B31 /* LockController.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC760BFB178EB5FB00095B31 /* Dutch */,
+				EC760BFC178EB5FB00095B31 /* English */,
+			);
+			name = LockController.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC760BC6178E976E00095B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC760BC7178E976E00095B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC760BC9178E976E00095B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShadowShackTools/ShadowShackTools-Prefix.pch";
+				INFOPLIST_FILE = "ShadowShackTools/ShadowShackTools-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC760BCA178E976E00095B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShadowShackTools/ShadowShackTools-Prefix.pch";
+				INFOPLIST_FILE = "ShadowShackTools/ShadowShackTools-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EC760BCC178E976E00095B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShadowShackTools.app/ShadowShackTools";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP3.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShadowShackTools/ShadowShackTools-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ShadowShackToolsTests/ShadowShackToolsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EC760BCD178E976E00095B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShadowShackTools.app/ShadowShackTools";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP3.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShadowShackTools/ShadowShackTools-Prefix.pch";
+				INFOPLIST_FILE = "ShadowShackToolsTests/ShadowShackToolsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC760B8E178E976E00095B31 /* Build configuration list for PBXProject "ShadowShackTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC760BC6178E976E00095B31 /* Debug */,
+				EC760BC7178E976E00095B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC760BC8178E976E00095B31 /* Build configuration list for PBXNativeTarget "ShadowShackTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC760BC9178E976E00095B31 /* Debug */,
+				EC760BCA178E976E00095B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC760BCB178E976E00095B31 /* Build configuration list for PBXNativeTarget "ShadowShackToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC760BCC178E976E00095B31 /* Debug */,
+				EC760BCD178E976E00095B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC760B8B178E976E00095B31 /* Project object */;
+}
