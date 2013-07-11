@@ -82,7 +82,7 @@
     [lockController setSubPrompt:@"Passcode => 0000"];
     [lockController setPasscode:@"0000"];
     
-    //[self presentViewController:lockController animated:true completion:nil];
+   // [self presentViewController:lockController animated:true completion:nil];
     [[Popup getInstance] showAlert:@"Lock!" message:@"Doesn't work on iOS7 yet!" delegate:self cancelButtonText:@"OK" otherButtonText:nil tag:0];
 }
 

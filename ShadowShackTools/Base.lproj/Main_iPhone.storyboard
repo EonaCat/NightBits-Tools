@@ -89,7 +89,6 @@
                                 </state>
                                 <connections>
                                     <action selector="showLockScreenAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="JpT-d1-z5I"/>
-                                    <action selector="showPopupAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="m92-aS-F46"/>
                                 </connections>
                             </button>
                         </subviews>
