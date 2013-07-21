@@ -21,7 +21,7 @@
 		EC760BBA178E976E00095B31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC760B96178E976E00095B31 /* Foundation.framework */; };
 		EC760BBB178E976E00095B31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC760B9A178E976E00095B31 /* UIKit.framework */; };
 		EC760BC3178E976E00095B31 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC760BC1178E976E00095B31 /* InfoPlist.strings */; };
-		EC760BC5178E976E00095B31 /* ShadowShackToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC760BC4178E976E00095B31 /* ShadowShackToolsTests.m */; };
+		EC760BC5178E976E00095B31 /* NightBitsToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC760BC4178E976E00095B31 /* NightBitsToolsTests.m */; };
 		EC760BEC178E97CB00095B31 /* ExceptionsLogger.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC760BE2178E97CB00095B31 /* ExceptionsLogger.strings */; };
 		EC760BED178E97CB00095B31 /* ExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = EC760BE6178E97CB00095B31 /* ExceptionHandler.m */; };
 		EC760BEE178E97CB00095B31 /* ExceptionLogger-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC760BE7178E97CB00095B31 /* ExceptionLogger-iPad.xib */; };
@@ -45,19 +45,19 @@
 			containerPortal = EC760B8B178E976E00095B31 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EC760B92178E976E00095B31;
-			remoteInfo = ShadowShackTools;
+			remoteInfo = NightBitsTools;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EC760B93178E976E00095B31 /* ShadowShackTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShadowShackTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC760B93178E976E00095B31 /* NightBitsTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NightBitsTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC760B96178E976E00095B31 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EC760B98178E976E00095B31 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		EC760B9A178E976E00095B31 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		EC760B9E178E976E00095B31 /* ShadowShackTools-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShadowShackTools-Info.plist"; sourceTree = "<group>"; };
+		EC760B9E178E976E00095B31 /* NightBitsTools-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NightBitsTools-Info.plist"; sourceTree = "<group>"; };
 		EC760BA0178E976E00095B31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EC760BA2178E976E00095B31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EC760BA4178E976E00095B31 /* ShadowShackTools-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShadowShackTools-Prefix.pch"; sourceTree = "<group>"; };
+		EC760BA4178E976E00095B31 /* NightBitsTools-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NightBitsTools-Prefix.pch"; sourceTree = "<group>"; };
 		EC760BA5178E976E00095B31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EC760BA6178E976E00095B31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EC760BA9178E976E00095B31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
@@ -65,11 +65,11 @@
 		EC760BAE178E976E00095B31 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EC760BAF178E976E00095B31 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EC760BB1178E976E00095B31 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		EC760BB7178E976E00095B31 /* ShadowShackToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShadowShackToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC760BB7178E976E00095B31 /* NightBitsToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NightBitsToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC760BB8178E976E00095B31 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		EC760BC0178E976E00095B31 /* ShadowShackToolsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShadowShackToolsTests-Info.plist"; sourceTree = "<group>"; };
+		EC760BC0178E976E00095B31 /* NightBitsToolsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NightBitsToolsTests-Info.plist"; sourceTree = "<group>"; };
 		EC760BC2178E976E00095B31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		EC760BC4178E976E00095B31 /* ShadowShackToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShadowShackToolsTests.m; sourceTree = "<group>"; };
+		EC760BC4178E976E00095B31 /* NightBitsToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NightBitsToolsTests.m; sourceTree = "<group>"; };
 		EC760BE3178E97CB00095B31 /* Dutch */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Dutch; path = Dutch.lproj/ExceptionsLogger.strings; sourceTree = "<group>"; };
 		EC760BE4178E97CB00095B31 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/ExceptionsLogger.strings; sourceTree = "<group>"; };
 		EC760BE5178E97CB00095B31 /* ExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExceptionHandler.h; sourceTree = "<group>"; };
@@ -124,8 +124,8 @@
 		EC760B8A178E976E00095B31 = {
 			isa = PBXGroup;
 			children = (
-				EC760B9C178E976E00095B31 /* ShadowShackTools */,
-				EC760BBE178E976E00095B31 /* ShadowShackToolsTests */,
+				EC760B9C178E976E00095B31 /* NightBitsTools */,
+				EC760BBE178E976E00095B31 /* NightBitsToolsTests */,
 				EC760B95178E976E00095B31 /* Frameworks */,
 				EC760B94178E976E00095B31 /* Products */,
 			);
@@ -134,8 +134,8 @@
 		EC760B94178E976E00095B31 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EC760B93178E976E00095B31 /* ShadowShackTools.app */,
-				EC760BB7178E976E00095B31 /* ShadowShackToolsTests.xctest */,
+				EC760B93178E976E00095B31 /* NightBitsTools.app */,
+				EC760BB7178E976E00095B31 /* NightBitsToolsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,7 +152,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EC760B9C178E976E00095B31 /* ShadowShackTools */ = {
+		EC760B9C178E976E00095B31 /* NightBitsTools */ = {
 			isa = PBXGroup;
 			children = (
 				EC760C09178EB9C800095B31 /* Images */,
@@ -166,33 +166,33 @@
 				EC760BB1178E976E00095B31 /* Images.xcassets */,
 				EC760B9D178E976E00095B31 /* Supporting Files */,
 			);
-			path = ShadowShackTools;
+			path = NightBitsTools;
 			sourceTree = "<group>";
 		};
 		EC760B9D178E976E00095B31 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				EC760B9E178E976E00095B31 /* ShadowShackTools-Info.plist */,
+				EC760B9E178E976E00095B31 /* NightBitsTools-Info.plist */,
 				EC760B9F178E976E00095B31 /* InfoPlist.strings */,
 				EC760BA2178E976E00095B31 /* main.m */,
-				EC760BA4178E976E00095B31 /* ShadowShackTools-Prefix.pch */,
+				EC760BA4178E976E00095B31 /* NightBitsTools-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		EC760BBE178E976E00095B31 /* ShadowShackToolsTests */ = {
+		EC760BBE178E976E00095B31 /* NightBitsToolsTests */ = {
 			isa = PBXGroup;
 			children = (
-				EC760BC4178E976E00095B31 /* ShadowShackToolsTests.m */,
+				EC760BC4178E976E00095B31 /* NightBitsToolsTests.m */,
 				EC760BBF178E976E00095B31 /* Supporting Files */,
 			);
-			path = ShadowShackToolsTests;
+			path = NightBitsToolsTests;
 			sourceTree = "<group>";
 		};
 		EC760BBF178E976E00095B31 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				EC760BC0178E976E00095B31 /* ShadowShackToolsTests-Info.plist */,
+				EC760BC0178E976E00095B31 /* NightBitsToolsTests-Info.plist */,
 				EC760BC1178E976E00095B31 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -271,15 +271,15 @@
 				EC760C0A178EB9C800095B31 /* toast.png */,
 			);
 			name = Images;
-			path = ShadowShackTools/Images;
+			path = NightBitsTools/Images;
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EC760B92178E976E00095B31 /* ShadowShackTools */ = {
+		EC760B92178E976E00095B31 /* NightBitsTools */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EC760BC8178E976E00095B31 /* Build configuration list for PBXNativeTarget "ShadowShackTools" */;
+			buildConfigurationList = EC760BC8178E976E00095B31 /* Build configuration list for PBXNativeTarget "NightBitsTools" */;
 			buildPhases = (
 				EC760B8F178E976E00095B31 /* Sources */,
 				EC760B90178E976E00095B31 /* Frameworks */,
@@ -289,14 +289,14 @@
 			);
 			dependencies = (
 			);
-			name = ShadowShackTools;
-			productName = ShadowShackTools;
-			productReference = EC760B93178E976E00095B31 /* ShadowShackTools.app */;
+			name = NightBitsTools;
+			productName = NightBitsTools;
+			productReference = EC760B93178E976E00095B31 /* NightBitsTools.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EC760BB6178E976E00095B31 /* ShadowShackToolsTests */ = {
+		EC760BB6178E976E00095B31 /* NightBitsToolsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EC760BCB178E976E00095B31 /* Build configuration list for PBXNativeTarget "ShadowShackToolsTests" */;
+			buildConfigurationList = EC760BCB178E976E00095B31 /* Build configuration list for PBXNativeTarget "NightBitsToolsTests" */;
 			buildPhases = (
 				EC760BB3178E976E00095B31 /* Sources */,
 				EC760BB4178E976E00095B31 /* Frameworks */,
@@ -307,9 +307,9 @@
 			dependencies = (
 				EC760BBD178E976E00095B31 /* PBXTargetDependency */,
 			);
-			name = ShadowShackToolsTests;
-			productName = ShadowShackToolsTests;
-			productReference = EC760BB7178E976E00095B31 /* ShadowShackToolsTests.xctest */;
+			name = NightBitsToolsTests;
+			productName = NightBitsToolsTests;
+			productReference = EC760BB7178E976E00095B31 /* NightBitsToolsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -319,14 +319,14 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
-				ORGANIZATIONNAME = ShadowShack;
+				ORGANIZATIONNAME = NightBits;
 				TargetAttributes = {
 					EC760BB6178E976E00095B31 = {
 						TestTargetID = EC760B92178E976E00095B31;
 					};
 				};
 			};
-			buildConfigurationList = EC760B8E178E976E00095B31 /* Build configuration list for PBXProject "ShadowShackTools" */;
+			buildConfigurationList = EC760B8E178E976E00095B31 /* Build configuration list for PBXProject "NightBitsTools" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -341,8 +341,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EC760B92178E976E00095B31 /* ShadowShackTools */,
-				EC760BB6178E976E00095B31 /* ShadowShackToolsTests */,
+				EC760B92178E976E00095B31 /* NightBitsTools */,
+				EC760BB6178E976E00095B31 /* NightBitsToolsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -398,7 +398,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC760BC5178E976E00095B31 /* ShadowShackToolsTests.m in Sources */,
+				EC760BC5178E976E00095B31 /* NightBitsToolsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,7 +407,7 @@
 /* Begin PBXTargetDependency section */
 		EC760BBD178E976E00095B31 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EC760B92178E976E00095B31 /* ShadowShackTools */;
+			target = EC760B92178E976E00095B31 /* NightBitsTools */;
 			targetProxy = EC760BBC178E976E00095B31 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -542,8 +542,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShadowShackTools/ShadowShackTools-Prefix.pch";
-				INFOPLIST_FILE = "ShadowShackTools/ShadowShackTools-Info.plist";
+				GCC_PREFIX_HEADER = "NightBitsTools/NightBitsTools-Prefix.pch";
+				INFOPLIST_FILE = "NightBitsTools/NightBitsTools-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -555,8 +555,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShadowShackTools/ShadowShackTools-Prefix.pch";
-				INFOPLIST_FILE = "ShadowShackTools/ShadowShackTools-Info.plist";
+				GCC_PREFIX_HEADER = "NightBitsTools/NightBitsTools-Prefix.pch";
+				INFOPLIST_FILE = "NightBitsTools/NightBitsTools-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -565,19 +565,19 @@
 		EC760BCC178E976E00095B31 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShadowShackTools.app/ShadowShackTools";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NightBitsTools.app/NightBitsTools";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(SYSTEM_APPS_DIR)/Xcode5-DP3.app/Contents/Developer/Library/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShadowShackTools/ShadowShackTools-Prefix.pch";
+				GCC_PREFIX_HEADER = "NightBitsTools/NightBitsTools-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "ShadowShackToolsTests/ShadowShackToolsTests-Info.plist";
+				INFOPLIST_FILE = "NightBitsToolsTests/NightBitsToolsTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -587,15 +587,15 @@
 		EC760BCD178E976E00095B31 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShadowShackTools.app/ShadowShackTools";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NightBitsTools.app/NightBitsTools";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(SYSTEM_APPS_DIR)/Xcode5-DP3.app/Contents/Developer/Library/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShadowShackTools/ShadowShackTools-Prefix.pch";
-				INFOPLIST_FILE = "ShadowShackToolsTests/ShadowShackToolsTests-Info.plist";
+				GCC_PREFIX_HEADER = "NightBitsTools/NightBitsTools-Prefix.pch";
+				INFOPLIST_FILE = "NightBitsToolsTests/NightBitsToolsTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -605,7 +605,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EC760B8E178E976E00095B31 /* Build configuration list for PBXProject "ShadowShackTools" */ = {
+		EC760B8E178E976E00095B31 /* Build configuration list for PBXProject "NightBitsTools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EC760BC6178E976E00095B31 /* Debug */,
@@ -614,7 +614,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EC760BC8178E976E00095B31 /* Build configuration list for PBXNativeTarget "ShadowShackTools" */ = {
+		EC760BC8178E976E00095B31 /* Build configuration list for PBXNativeTarget "NightBitsTools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EC760BC9178E976E00095B31 /* Debug */,
@@ -622,7 +622,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		EC760BCB178E976E00095B31 /* Build configuration list for PBXNativeTarget "ShadowShackToolsTests" */ = {
+		EC760BCB178E976E00095B31 /* Build configuration list for PBXNativeTarget "NightBitsToolsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EC760BCC178E976E00095B31 /* Debug */,

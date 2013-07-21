@@ -1,7 +1,7 @@
 //
 //  ExceptionLogger.m
-//  Created by ShadowShack
-//  Copyright 2013 ShadowShack. All rights reserved.
+//  Created by NightBits
+//  Copyright 2013 NightBits. All rights reserved.
 //
 
 // The ExceptionLogger needs to be imported in a view by using the #import "ExceptionLogger.h"; statement in de .m file

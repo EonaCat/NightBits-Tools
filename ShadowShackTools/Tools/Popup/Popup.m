@@ -1,7 +1,7 @@
 //
 //  Popup.m
-//  Created by ShadowShack
-//  Copyright 2013 ShadowShack. All rights reserved.
+//  Created by NightBits
+//  Copyright 2013 NightBits. All rights reserved.
 //
 
 #import "Popup.h"

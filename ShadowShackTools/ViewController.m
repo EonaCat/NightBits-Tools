@@ -1,7 +1,7 @@
 //
 //  ViewController.m
-//  Created by ShadowShack
-//  Copyright 2013 ShadowShack. All rights reserved.
+//  Created by NightBits
+//  Copyright 2013 NightBits. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -65,12 +65,12 @@
 - (IBAction)showToastAction:(UIButton *)sender
 {
     //[self.view makeToast:[NSString stringWithFormat:@"Toasted!"] duration:3.0 position:@"top"];
-    [self.view makeToast:@"ShadowShack Toast!" duration:3.0 position:@"top" title:@"Toasted!" image:[UIImage imageNamed:@"toast.png"]];
+    [self.view makeToast:@"NightBits Toast!" duration:3.0 position:@"top" title:@"Toasted!" image:[UIImage imageNamed:@"toast.png"]];
 }
 
 - (IBAction)showPopupAction:(UIButton *)sender
 {
-    [[Popup getInstance] showAlert:@"Popup!" message:@"ShadowShack Popup" delegate:self cancelButtonText:@"OK" otherButtonText:nil tag:0];
+    [[Popup getInstance] showAlert:@"Popup!" message:@"NightBits Popup" delegate:self cancelButtonText:@"OK" otherButtonText:nil tag:0];
 }
 
 - (IBAction)showLockScreenAction:(UIButton *)sender
@@ -78,7 +78,7 @@
     LockController *lockController = [[LockController alloc] init];
     
     [lockController setDelegate:self];
-    [lockController setTitle:@"ShadowShack LOCK!"];
+    [lockController setTitle:@"NightBits LOCK!"];
     [lockController setSubPrompt:@"Passcode => 0000"];
     [lockController setPasscode:@"0000"];
     

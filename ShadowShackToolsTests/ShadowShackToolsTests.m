@@ -1,17 +1,17 @@
 //
-//  ShadowShackToolsTest.m
-//  Created by ShadowShack
-//  Copyright 2013 ShadowShack. All rights reserved.
+//  NightBitsToolsTest.m
+//  Created by NightBits
+//  Copyright 2013 NightBits. All rights reserved.
 //
 
 
 #import <XCTest/XCTest.h>
 
-@interface ShadowShackToolsTests : XCTestCase
+@interface NightBitsToolsTests : XCTestCase
 
 @end
 
-@implementation ShadowShackToolsTests
+@implementation NightBitsToolsTests
 
 - (void)setUp
 {

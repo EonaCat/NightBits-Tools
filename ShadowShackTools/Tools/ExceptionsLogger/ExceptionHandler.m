@@ -1,7 +1,7 @@
 //
 //  ExceptionHandler.m
-//  Created by ShadowShack
-//  Copyright 2013 ShadowShack. All rights reserved.
+//  Created by NightBits
+//  Copyright 2013 NightBits. All rights reserved.
 //
 
 // The ExceptionHandler needs to be imported in the ApplicationDelegate by using the #import "ExceptionHandler.h"; statement in de .m file
