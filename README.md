@@ -1,4 +1,4 @@
-ShadowShack-Tools
+NightBits-Tools
 =================
 
 This xcode project consist out of the following classes:
@@ -8,4 +8,4 @@ Toast
 Exceptionslogger
 Exceptionshandler
 
-These tools can be usefull for anyone developing for the iOS devices.
+These tools can be useful for anyone developing for the iOS devices.
